@@ -1,0 +1,174 @@
+/* Universal Rules */
+body {
+    background-image: url("https://images.unsplash.com/photo-1593025539060-bcee1233d755?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    background-position: center;
+}
+
+/* sets everything below navbar */
+main {
+    position: relative;
+    top: 5rem;
+}
+
+/* Navbar */
+.nav {
+    background-color: black;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1.32rem;
+    margin-left: -.5rem;
+    background-size: cover;
+    flex-direction: column;
+    opacity: .90;
+    position: fixed;
+    z-index: 99;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    text-align: center;
+    display: inline;
+    margin-left: 8rem;
+    position: relative;
+    right: 5.25rem;
+    background-color: grey;
+    padding: 1.25rem;
+    padding-right: 1.75rem;
+    width: 5rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 750px) {
+    li {
+        padding: .75rem;
+        margin-left: 3.5rem;
+        right: 4.25rem;
+    }
+}
+
+li:hover {
+    background-image: linear-gradient(to bottom left, red, orange, yellow, green, blue, indigo, violet);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.10rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    a {
+        font-size: .75rem;
+    }
+}
+
+
+/* Title */
+h1 {
+    background-image: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet);
+    color: #ffffff;
+    padding: 1rem;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: -.5rem;
+    font-size: 2rem;
+    position: relative;
+    top: 0rem;
+    width: 100%;
+}
+
+/* Text Rules */
+h3, h2 {
+    text-align: center;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+/* Flex box rules for main */
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+/*Mission Section*/
+
+.mission-container {
+    background-color: hsla(0, 4%, 20%, 0.753);
+    color: #ffffff;
+    border-radius: 1.5rem;
+    border: .5rem solid hsla(0, 0%, 13%, 0.749);
+    height: 25rem;
+    width: 23rem;
+    flex-wrap: wrap;
+}
+
+.mission-img {
+    width: 23rem;
+    height: 25rem;
+    border: .5rem solid hsla(0, 0%, 13%, 0.749);
+    border-radius: 1.5rem;
+}
+
+/*Advisor Section*/
+.advisor-img {
+    height: 23rem;
+    width: 23rem;
+    border-radius: 1.5rem;
+    border: .5rem solid hsla(0, 0%, 13%, 0.749);
+}
+
+/* Event Section*/
+
+#events {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    background-color: hsla(0, 4%, 20%, 0.753);
+    color: #ffffff;
+    border-radius: 1.5rem;
+    border: .5rem solid hsla(0, 0%, 13%, 0.749);
+    border-spacing: 2rem;
+}
+
+@media screen and (max-width: 1368px) {
+    table {
+        border-spacing: .5rem;
+    }
+}
+
+td {
+    padding-top: 1rem;
+    font-size: 1.25rem;
+}
+
+
+
+
